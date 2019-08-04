@@ -1,0 +1,12 @@
+.CountPercent {
+    display: flex;
+    flex-direction: column;
+}
+
+.CountPercent_success {
+    color: #3eb38c;
+}
+
+.CountPercent_error {
+    color: #e53935;
+}

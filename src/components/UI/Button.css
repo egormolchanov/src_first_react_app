@@ -1,0 +1,47 @@
+.Button {
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.Button__transparent {
+    padding: 7px;
+    background: transparent;
+    border: 1px solid white;
+    width: 100%;
+    margin: 10px;
+}
+
+.Button__purple {
+    padding: 7px;
+    background: #6400e4;
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+}
+
+.Button__standard {
+    position: fixed;
+    left: 50%; bottom: 0px;
+    transform: translateX(-50%);
+    border: 1px solid #233466;
+    padding: 7px 0;
+    background: #5788fa;
+    width: 180px;
+    animation: bottom 0.5s;
+    animation-fill-mode: forwards
+}
+
+@keyframes bottom {				
+    from {bottom: 0;}
+    to {bottom: 20px;}
+}
+
+.Button__standard_large {
+    border: 1px solid #233466;
+    padding: 10px 0;
+    background: #5788fa;
+    width: 100%;
+    font-size: 18px;
+}

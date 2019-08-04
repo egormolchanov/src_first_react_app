@@ -1,0 +1,27 @@
+.AnswersItem {
+    list-style: none;
+    border: 1px solid #2d5dcc;
+    background: #141e3b;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.AnswersItem_active {
+    background: #233466;
+    border: 1px solid #5788fa;
+}
+
+.AnswersItem_success {
+    background: #164032;
+    border: 1px solid #3eb38c;
+}
+
+.AnswersItem_error {
+    background: #661917;
+    border: 1px solid #e53935;
+}
+
+.AnswersItem_error_success {
+    border: 1px solid #3eb38c;
+}

@@ -1,0 +1,33 @@
+.counterQuiz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #151d3f;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    box-shadow: 0 0 10px black;
+}
+
+.counterQuiz p {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+progress {
+    width: 400px;
+    height: 5px;
+    border-radius: 50%;
+    background: #233466;
+    margin: 0 10px;
+}
+
+progress::-webkit-progress-bar {
+    background: #233466;
+    border-radius: 10px;
+}
+
+
+progress::-webkit-progress-value {
+    background: #5788fa;
+    border-radius: 10px 0 0 10px;
+}
